@@ -1,0 +1,97 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+	.top-menu_item{
+		margin: 0;
+	}
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.top-menu{
+		width: 45%;
+		right: 35px;
+		top: -7px;
+		position: absolute;
+		visibility: hidden;
+		opacity: 0;
+		border-radius: 6px;
+		background-color: #252525;
+
+	}
+	.menu-toggle{
+		display: block;
+	}
+	.top-menu_item{
+		display: block;
+	}
+	.top-menu_link{
+		display: block;
+		text-align: center;
+		font-size: 14px;
+		padding: 15px 35px;
+		border-bottom:1px solid rgba(255,255,255, .07);
+		border-radius: 0;
+		line-height: 1.3;
+		text-transform: uppercase;
+	}
+	.top-menu_link:hover,
+	.top-menu_link:focus,
+	span.top-menu_link {
+		color: rgba(255,255,255, .7);
+		background-color: rgba(116, 116, 116, 0.055);
+	}
+}
+
+/* sm <= Medium (md) */cc
+@media (max-width : 768px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
