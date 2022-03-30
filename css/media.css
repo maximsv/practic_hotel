@@ -15,7 +15,6 @@
 /* md <= Large (lg) */
 @media (max-width : 992px) {
 	.top-menu{
-		width: 45%;
 		right: 35px;
 		top: -7px;
 		position: absolute;
@@ -23,6 +22,7 @@
 		opacity: 0;
 		border-radius: 6px;
 		background-color: #252525;
+		overflow: hidden;
 
 	}
 	.menu-toggle{

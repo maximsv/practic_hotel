@@ -5,7 +5,10 @@
 	--text: #333;
 	--regular-text: 16px;
 	--lineheight: 1.65;
-	--dark: #303030;
+	--deep: #171a1a;
+	--dark: #202328;
+	--text-light: #999999;
+	--dark-div: #2D3038;
 	--userfont: roboto-st, sans-serif;
 	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
 	--transition: .25s ease-out;
@@ -167,7 +170,7 @@ body {
 	font-style: normal;
 	letter-spacing: .8px;
 	opacity: .5;
-	margin-left: 42px;
+	margin-left: 50px;
 }
 
 .logo_link i {
@@ -175,8 +178,8 @@ body {
 	top: 15px;
 	width: 0px;
 	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
 	border-bottom: 30px solid orange;
 	display: inline-block;
 }
@@ -322,5 +325,40 @@ span.top-menu_link {
 	background-color: rgba(32, 35, 40, 0.9);
 	padding: 15px 22px;
 	border-radius: 3px;
+}
+
+/*Home-back*/
+.home-back{
+	background-color: var(--deep);
+	padding: 60px 0;
+	color: var(--text-light);
+	position: relative;
+	z-index: 1;
+}
+.home-back_header {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+	position: relative;
+}
+.home-back_header::after{
+	content: '';
+	width: 45%;
+	height: 2px;
+	background-color: var(--text-light);
+	position: absolute;
+	left: 0	;
+	bottom: -13px;
+}
+.home-back_list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.home-back_list> * {
+	display: inline-block;
+	width: 30%;
+	margin-right: 10px;
 }
 
